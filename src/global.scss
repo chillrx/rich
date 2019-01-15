@@ -10,7 +10,44 @@
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
 
-.toolbar-title {
+ion-title {
+    font-weight: bolder;
+}
+
+/*Custom CSS*/
+
+.flex {
     display: flex;
-    align-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.mt1 {
+    margin-top: 1rem;
+}
+
+.mr1 {
+    margin-right: 1rem;
+}
+
+.mb1 {
+    margin-bottom: 1rem;
+}
+
+.ml1 {
+    margin-left: 1rem;
 }

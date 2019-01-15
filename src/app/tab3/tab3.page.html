@@ -1,9 +1,20 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab Three
+    <ion-title class="text-align-center">
+      Money Clicker
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+  <ion-img src="http://images.clipartpanda.com/money-clipart-money-sign-clip-art-no-background-13489777212478.png"></ion-img>
+  
+  <p class="text-align-center">{{ counter }} dollars</p>
+  
+  <div class="flex justify-center">
+    <button ion-button (click)="addOneToCounter()">Add money</button>
+  </div>
+
+
+</ion-content>

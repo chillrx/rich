@@ -1,6 +1,8 @@
 {
   "name": "richApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "ca81f559"
 }

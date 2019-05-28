@@ -4,6 +4,6 @@ This project is a mobile app created for studying.
 
 ## Usage
 
-Npm install
+npm install
 
 ng serve

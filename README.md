@@ -1,6 +1,6 @@
 # Rich App
 
-This project is a mobile app created for studying.
+This project is a mobile app created with the intent of learning something new.
 
 ## Usage
 
